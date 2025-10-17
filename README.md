@@ -1,5 +1,4 @@
-# Optimizing TinyML for Indoor Localisation in
-Resource-Constrained Environments
+# Optimizing TinyML with quantization and distillation for Indoor Localisation in Resource-Constrained Environments
 
 In this project we try to deploy a feasible adaptation
 of state-of-the-art TinyML indoor localization systems for usage
