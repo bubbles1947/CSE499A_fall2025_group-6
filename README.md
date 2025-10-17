@@ -1,3 +1,6 @@
+# Optimizing TinyML for Indoor Localisation in
+Resource-Constrained Environments
+
 In this project we try to deploy a feasible adaptation
 of state-of-the-art TinyML indoor localization systems for usage
 in third-world countries with minimal components, resources,
