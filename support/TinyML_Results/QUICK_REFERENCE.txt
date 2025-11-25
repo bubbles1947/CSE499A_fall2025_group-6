@@ -1,0 +1,28 @@
+
+
+QUICK REFERENCE - ESP32 DEPLOYMENT
+
+
+BEST MODEL: Mamba_H8L1
+SIZE: 6.43 KB
+ACCURACY: 63.16%
+
+DEPLOYMENT STEPS:
+1. cd /content/drive/MyDrive/TinyML_Results/esp32_deployment
+2. Read README.md
+3. Copy files to ESP32 project
+4. Install TensorFlow Lite Micro
+5. Build and upload
+
+MEMORY:
+Flash: ~6 KB
+SRAM: ~100 KB
+
+PERFORMANCE:
+Inference: ~10-50ms
+Power: ~80mA active
+
+FILES LOCATION:
+/content/drive/MyDrive/TinyML_Results
+
+
