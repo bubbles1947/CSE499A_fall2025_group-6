@@ -1,0 +1,2 @@
+Teacher,Teacher F1 (%),Teacher Size (KB),Student (Baseline),Student Baseline F1 (%),Student Distilled F1 (%),Improvement (%),Distilled Size (KB),Distilled+Quantized Size (KB),Distilled+Quantized F1 (%),Compression vs Teacher
+Mamba_H16L1,85.32679738562092,14.5537109375,Mamba_H8L1,47.63772175536881,5.503955968352253,-42.13376578701656,7.0537109375,6.5146484375,5.458399576046635,2.233997901364113
