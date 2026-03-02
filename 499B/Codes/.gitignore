@@ -1,0 +1,25 @@
+# Large model files - don't upload to GitHub
+models/
+onnx_models/*.onnx
+onnx_models/*.onnx_data
+
+# Keep config files in onnx_models
+!onnx_models/*.json
+!onnx_models/*.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Test images
+test_image.jpg
+test_image.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
