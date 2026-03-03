@@ -16,7 +16,7 @@ accurate on-device accuracy for different application domains with minimal energ
 requirements, the proposed architecture contributes to the democratization of advanced TinyML technologies for developing
 nations.
 
-
+This is work in progress. We plan to add many more features soon. This is a quick summary rather than a technical breakdown of every tech stack, equipment used. 
 ## Group Members:
 1.Mueid Islam Arian - 2121947 @bubbles1947  
 2.Md. Mahamudul Hasan - 2121379642 @mahamudul-hasan-cse  
