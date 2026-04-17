@@ -1,0 +1,38 @@
+version: "3.9"
+
+services:
+  # ── PostgreSQL Database ──────────────────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    container_name: localmind-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: something
+      POSTGRES_DB: localmind
+    ports:
+      - "5460:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d localmind"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── ChromaDB (Vector Store for RAG) ──────────────────────────────
+  chromadb:
+    image: chromadb/chroma:0.5.23
+    container_name: localmind-chromadb
+    restart: unless-stopped
+    ports:
+      - "8005:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+      - ANONYMIZED_TELEMETRY=FALSE
+
+volumes:
+  postgres_data:
+  chroma_data:

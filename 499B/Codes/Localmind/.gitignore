@@ -1,0 +1,25 @@
+# ── Python ────────────────────────────────────────────────────────
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/**/*.pyc
+backend/.env
+backend/models/*.gguf
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/chroma_data/
+
+# ── Node ──────────────────────────────────────────────────────────
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+
+# ── Misc ──────────────────────────────────────────────────────────
+mobile-tmp/
+.claude/
+.DS_Store
+*.log
+*.tmp
+.env
