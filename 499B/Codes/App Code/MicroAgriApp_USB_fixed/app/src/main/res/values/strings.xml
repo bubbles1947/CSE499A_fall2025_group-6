@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MicroAgri</string>
+    <string name="scan_plant">Scan Plant</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="view_history">History</string>
+    <string name="analyzing">Analyzing…</string>
+    <string name="speak">🔊 Speak</string>
+    <string name="toggle_lang">বাং</string>
+</resources>

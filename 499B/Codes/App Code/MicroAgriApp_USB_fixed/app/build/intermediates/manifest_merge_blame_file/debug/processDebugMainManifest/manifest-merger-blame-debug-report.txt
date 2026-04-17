@@ -1,0 +1,217 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.microagri.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:5:5-65
+11-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission
+12-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:6:5-7:38
+13        android:name="android.permission.READ_EXTERNAL_STORAGE"
+13-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:6:22-77
+14        android:maxSdkVersion="32" />
+14-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:7:9-35
+15    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+15-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:8:5-76
+15-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:8:22-73
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:9:5-71
+16-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:9:22-68
+17    <!-- Required on Android 11+ to read /sdcard/MicroAgri/ model files -->
+18    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+18-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:11:5-12:40
+18-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:11:22-79
+19
+20    <uses-feature
+20-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:14:5-84
+21        android:name="android.hardware.camera"
+21-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:14:19-57
+22        android:required="true" />
+22-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:14:58-81
+23
+24    <permission
+24-->[androidx.core:core:1.12.0] C:\Users\User\.gradle\caches\9.0.0\transforms\9d5bd49bbbdb048118cf94b10dba155a\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+25        android:name="com.microagri.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.12.0] C:\Users\User\.gradle\caches\9.0.0\transforms\9d5bd49bbbdb048118cf94b10dba155a\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.12.0] C:\Users\User\.gradle\caches\9.0.0\transforms\9d5bd49bbbdb048118cf94b10dba155a\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.microagri.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.12.0] C:\Users\User\.gradle\caches\9.0.0\transforms\9d5bd49bbbdb048118cf94b10dba155a\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.12.0] C:\Users\User\.gradle\caches\9.0.0\transforms\9d5bd49bbbdb048118cf94b10dba155a\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:16:5-62:19
+31        android:name="com.microagri.app.MicroAgriApplication"
+31-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:17:9-45
+32        android:allowBackup="true"
+32-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:18:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.12.0] C:\Users\User\.gradle\caches\9.0.0\transforms\9d5bd49bbbdb048118cf94b10dba155a\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:icon="@mipmap/ic_launcher"
+36-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:20:9-43
+37        android:label="@string/app_name"
+37-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:21:9-41
+38        android:largeHeap="true"
+38-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:19:9-33
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:22:9-54
+40        android:supportsRtl="true"
+40-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:23:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Theme.MicroAgriApp" >
+42-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:24:9-50
+43        <activity
+43-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:26:9-35:20
+44            android:name="com.microagri.app.ui.SplashActivity"
+44-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:27:13-46
+45            android:exported="true"
+45-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:28:13-36
+46            android:screenOrientation="portrait"
+46-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:29:13-49
+47            android:theme="@style/Theme.MicroAgriApp.Splash" >
+47-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:30:13-61
+48            <intent-filter>
+48-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:31:13-34:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:32:17-69
+49-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:32:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:33:17-77
+51-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:33:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:37:9-40:52
+55            android:name="com.microagri.app.ui.MainActivity"
+55-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:38:13-44
+56            android:exported="false"
+56-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:39:13-37
+57            android:screenOrientation="portrait" />
+57-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:40:13-49
+58        <activity
+58-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:42:9-45:52
+59            android:name="com.microagri.app.ui.CameraActivity"
+59-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:43:13-46
+60            android:exported="false"
+60-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:44:13-37
+61            android:screenOrientation="portrait" />
+61-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:45:13-49
+62        <activity
+62-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:47:9-50:52
+63            android:name="com.microagri.app.ui.ResultActivity"
+63-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:48:13-46
+64            android:exported="false"
+64-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:49:13-37
+65            android:screenOrientation="portrait" />
+65-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:50:13-49
+66        <activity
+66-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:52:9-55:52
+67            android:name="com.microagri.app.ui.HistoryActivity"
+67-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:53:13-47
+68            android:exported="false"
+68-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:54:13-37
+69            android:screenOrientation="portrait" />
+69-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:55:13-49
+70        <activity
+70-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:57:9-60:52
+71            android:name="com.microagri.app.ui.SetupActivity"
+71-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:58:13-45
+72            android:exported="false"
+72-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:59:13-37
+73            android:screenOrientation="portrait" />
+73-->E:\Academics\THE FINAL ONE\CSE499B\MicroAgriApp_USB_fixed\app\src\main\AndroidManifest.xml:60:13-49
+74
+75        <service
+75-->[androidx.camera:camera-camera2:1.3.1] C:\Users\User\.gradle\caches\9.0.0\transforms\cecc6f51b5583f6deb1ccd8c21f0ceaa\transformed\camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+76            android:name="androidx.camera.core.impl.MetadataHolderService"
+76-->[androidx.camera:camera-camera2:1.3.1] C:\Users\User\.gradle\caches\9.0.0\transforms\cecc6f51b5583f6deb1ccd8c21f0ceaa\transformed\camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+77            android:enabled="false"
+77-->[androidx.camera:camera-camera2:1.3.1] C:\Users\User\.gradle\caches\9.0.0\transforms\cecc6f51b5583f6deb1ccd8c21f0ceaa\transformed\camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+78            android:exported="false" >
+78-->[androidx.camera:camera-camera2:1.3.1] C:\Users\User\.gradle\caches\9.0.0\transforms\cecc6f51b5583f6deb1ccd8c21f0ceaa\transformed\camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.camera:camera-camera2:1.3.1] C:\Users\User\.gradle\caches\9.0.0\transforms\cecc6f51b5583f6deb1ccd8c21f0ceaa\transformed\camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+80                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+80-->[androidx.camera:camera-camera2:1.3.1] C:\Users\User\.gradle\caches\9.0.0\transforms\cecc6f51b5583f6deb1ccd8c21f0ceaa\transformed\camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+81                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+81-->[androidx.camera:camera-camera2:1.3.1] C:\Users\User\.gradle\caches\9.0.0\transforms\cecc6f51b5583f6deb1ccd8c21f0ceaa\transformed\camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+82        </service>
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\9.0.0\transforms\022424e25000b2bb16e546293e43446a\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\9.0.0\transforms\022424e25000b2bb16e546293e43446a\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+86            android:authorities="com.microagri.app.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\9.0.0\transforms\022424e25000b2bb16e546293e43446a\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\9.0.0\transforms\022424e25000b2bb16e546293e43446a\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\9.0.0\transforms\022424e25000b2bb16e546293e43446a\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\9.0.0\transforms\022424e25000b2bb16e546293e43446a\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\9.0.0\transforms\022424e25000b2bb16e546293e43446a\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5b507319ef427dc07bac117055425396\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5b507319ef427dc07bac117055425396\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5b507319ef427dc07bac117055425396\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+97        </provider>
+98
+99        <receiver
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+100            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+101            android:directBootAware="false"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+102            android:enabled="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+103            android:exported="true"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+104            android:permission="android.permission.DUMP" >
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+106                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+109                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+112                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+115                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\User\.gradle\caches\9.0.0\transforms\5599c0d07a47280a742d481c6b875fa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+116            </intent-filter>
+117        </receiver>
+118    </application>
+119
+120</manifest>

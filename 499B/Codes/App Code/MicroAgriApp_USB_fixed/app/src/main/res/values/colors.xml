@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_bg">#1B5E20</color>
+    <color name="green_primary">#1B5E20</color>
+    <color name="green_light">#E8F5E9</color>
+    <color name="amber">#F57F17</color>
+    <color name="red_severe">#B71C1C</color>
+    <color name="white">#FFFFFF</color>
+</resources>

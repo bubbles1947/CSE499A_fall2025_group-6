@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amber">#F57F17</color>
+    <color name="green_light">#E8F5E9</color>
+    <color name="green_primary">#1B5E20</color>
+    <color name="red_severe">#B71C1C</color>
+    <color name="splash_bg">#1B5E20</color>
+    <color name="white">#FFFFFF</color>
+    <string name="analyzing">Analyzing…</string>
+    <string name="app_name">MicroAgri</string>
+    <string name="scan_plant">Scan Plant</string>
+    <string name="speak">🔊 Speak</string>
+    <string name="toggle_lang">বাং</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="view_history">History</string>
+    <style name="Theme.MicroAgriApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#1B5E20</item>
+        <item name="colorPrimaryVariant">#2E7D32</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#558B2F</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="Theme.MicroAgriApp.Splash" parent="Theme.MicroAgriApp">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/splash_bg</item>
+    </style>
+</resources>

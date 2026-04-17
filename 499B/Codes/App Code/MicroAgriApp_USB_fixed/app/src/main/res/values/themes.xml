@@ -1,0 +1,15 @@
+<resources>
+    <style name="Theme.MicroAgriApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#1B5E20</item>
+        <item name="colorPrimaryVariant">#2E7D32</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#558B2F</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.MicroAgriApp.Splash" parent="Theme.MicroAgriApp">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/splash_bg</item>
+    </style>
+</resources>

@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\drawable_circle_green.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\drawable\\circle_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\layout_item_history.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\layout\\item_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\drawable_badge_amber.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\drawable\\badge_amber.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\drawable_circle_amber.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\drawable\\circle_amber.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\layout_activity_setup.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\layout\\activity_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\drawable_camera_frame_overlay.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\drawable\\camera_frame_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\drawable_badge_red.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\drawable\\badge_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\layout_activity_camera.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\drawable_badge_green.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\drawable\\badge_green.xml"
+    },
+    {
+        "merged": "com.microagri.app-debug-42:/layout_activity_main.xml.flat",
+        "source": "com.microagri.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\layout_activity_download.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\layout\\activity_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-debug-42:\\layout_activity_result.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0.0\\com.microagri.app-main-44:\\layout\\activity_result.xml"
+    }
+]
